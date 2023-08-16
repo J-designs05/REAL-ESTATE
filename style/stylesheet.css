@@ -1,0 +1,490 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    font-family: montserrat;
+    max-width: 1400px;
+    color: rgb(29, 29, 48);
+}
+a{
+    text-decoration: none;
+}
+h3{
+    color: #2F3253;
+}
+#nav1{
+    display: none;
+}
+#navIcon{
+    display: none;
+}
+
+#home{
+    background: rgba(51, 63, 165, 0.3) url(../Images/IMG_2356\ \(1\).JPG) no-repeat center center/cover;
+    color: white;
+    background-blend-mode: darken;
+    padding: 10px 40px 80px 40px;
+    
+}
+
+header {
+    display: flex;
+    width: 100%;
+
+}
+nav{
+    margin-left: auto;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 40%;
+    border-radius: 25px;
+    color: rgb(29, 29, 48);
+    
+
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+nav li{
+    padding: 10px 0;
+    list-style: none;
+    font-size: 15px;
+    
+}
+
+header button{
+    margin-left: auto;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.5);
+    font-family: montserrat;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+h5{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#subHome{
+    padding-top: 100px;
+}
+#subHome h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+#subHome p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+#subHome button{
+    padding: 15px 50px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 0;
+    font-family: montserrat;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+#badge{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    margin: -30px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+    color: #2F3253;
+}
+.section{
+    padding: 50px 40px ;
+}
+h2{
+    color: #2F3253;
+    font-size: 40px;  
+    margin-bottom: 10px;
+    text-align: center;
+}
+#project{
+    text-align: center;
+}
+#project1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+}
+.project{
+    width: 30%;
+    margin: 10px 10px;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.project img{
+    width: 100%;
+    height: 70%;
+}
+.projectDescription{
+    margin: 5px 10px 10px 10px;
+}
+.projectDescription p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #2F3253;
+}
+#aboutus{
+    display: flex;
+    padding: 50px 100px ;
+}
+#aboutus1{
+    width: 50%;
+    display: inline-block;
+    border-radius: 25px;
+    border-width: 0 10px 10px 0;
+    border-style: solid;
+    overflow: hidden;
+    border-color: rgb(29, 29, 48);
+    height: 500px;
+   
+}
+#aboutusResize{
+    display: none;
+}
+#aboutus1 img{
+    width: 100%;
+    height: 100%;
+}
+#aboutus2{
+    width: 50%;
+    margin-left: 60px;
+}
+#aboutus2 p{
+    margin-top: 15px;
+    line-height: 25px;
+    color: #2F3253;
+    
+}
+.team1{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.team{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.team img{
+    width: 100%;
+}
+
+.team1:nth-child(2){
+    width: 60%;
+}
+.box{
+    display: none;
+}
+.commentBox{
+    display: flex;
+    margin-top: 50px;
+
+}
+.comment{
+    text-align: center;
+    width: 40%;
+    box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+    padding: 20px 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.comment p{
+    margin-bottom: 10px;
+    color: #2F3253;
+}
+#form{
+    text-align: center;
+
+}
+.info{
+    height: 25px;
+    width: 500px;
+    margin: 10px 0;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+#message{
+    width: 500px;
+    height: 100px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+#submit{
+    width: 500px;
+    padding: 5px 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+    border: 0;
+    font-size: 25px;
+
+}
+footer{
+    display: flex;
+}
+.footer{
+    width: 33.33%;
+
+}
+.footerImage{
+    width: 20px;
+    height: 20px;
+}
+.footerImgText{
+    display: inline-block;
+}
+#midFooter{
+    text-align: center;
+}
+#firstFooterImg{
+    margin-top: 20px;
+
+}
+#firstFooterImg img{
+    margin: 0 20px;
+}
+#firstFooterImg img:nth-child(1){
+    margin-left: 0;
+}
+footer p{
+    margin-top: 20px;
+}
+.footer:nth-child(3){
+    text-align: right;
+}
+@media screen and (max-width:1000px) {
+    #nav1{
+        display: none;
+        z-index: 4;
+        position: fixed;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: white;
+        
+    }
+    #nav1 ul{
+        display: block;
+    }
+    #nav1 li{
+        margin: 30px 0;
+    }
+    #nav1 button{
+        margin-top: 30px;
+    }
+    #navIcon{
+        display: inline-block;
+        margin-left: auto;
+        cursor: pointer;
+    }
+    #navIconOpen{
+        color: rgb(58, 58, 112);
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    #navIconOpen h1{
+        font-size: 30px;
+    }
+    #home{
+        padding: 10px 20px 80px 20px;
+    }
+    h2{
+        color: rgb(29, 29, 48);
+        font-size: 1.5em;  
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .section{
+        padding: 25px 20px ;
+    }
+    nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    #subHome h1{
+        font-size: 8vw;
+        margin-bottom: 10px;
+    }
+    #subHome p{
+        font-size: 1em;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        word-spacing: 0.2em;
+        line-height: 1em;
+    }
+    #subHome button{
+        padding: 5px 30px;
+        margin-top: 20px;
+        border-radius: 25px;
+        border: 0;
+        font-family: montserrat;
+        font-size: 1em;
+        letter-spacing: 2px;
+        background-color: rgb(255, 255, 255, 0.8);
+    }
+    #badge{
+        width: 95%;
+        height: unset;
+        background-color: white;
+        border-radius: 25px;
+        margin: -15px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+        padding: 5px 5px;
+        text-align: center;
+    }
+
+    #badge p{
+        font-size: 0.8rem;
+    }
+    #project1{
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+        
+    }
+    .project{
+        width: 80%;
+        margin: 10 auto;
+        display: inline-block;
+        border-radius: 25px;
+        box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+        overflow: hidden;
+    }
+    #aboutus{
+        display: block;
+        padding: 50px 20px ;
+        text-align: center;
+    }
+    #aboutusResize{
+        width: 100%;
+        display: inline-block;
+        border-radius: 25px;
+        border-width: 0 10px 10px 0;
+        border-style: solid;
+        overflow: hidden;
+        border-color: rgb(29, 29, 48);
+        margin-top: 20px;
+       
+    }
+    #aboutusResize img{
+        width: 100%;
+        height: 100%;
+    }
+    #aboutus1{
+        display: none;
+    }
+    #aboutus1 img{
+        width: 100%;
+        height: 100%;
+    }
+    #aboutus2{
+        width: 100%;
+        margin-left: 0;
+    }
+    #aboutus2 p{
+        margin-top: 15px;
+        line-height: 25px;
+        
+    }
+    .team1{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .team1:nth-child(2){
+        width: 100%;
+    }
+    .commentBox{
+        display: block;
+        margin-top: 50px;
+    
+    }
+    .comment{
+        text-align: center;
+        width: 80%;
+        box-shadow: 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+        padding: 20px 20px;
+        border-radius: 25px;
+        margin: 20px auto;
+    }
+    .info{
+        height: 25px;
+        width: 80%;
+        margin: 10px 0;
+        border-radius: 25px;
+        padding: 5px 10px;
+        border: 1px solid black;
+    }
+    #message{
+        width: 80%;
+        height: 100px;
+        border-radius: 25px;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+    #submit{
+        width: 80%;
+        padding: 5px 5px;
+        border-radius: 25px;
+        margin-top: 10px;
+        border: 0;
+        font-size: 1.2em;
+    
+    }
+    footer{
+        display: block;  
+    }
+    footer h5{
+        font-size: 1.2em;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    
+    }
+    .footer:nth-child(3){
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px){
+    .homeText{
+        display: none;
+    }
+}
